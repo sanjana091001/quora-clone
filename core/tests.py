@@ -1,4 +1,5 @@
 from django.test import TestCase
+<<<<<<< HEAD
 from .models import User
 
 class LogInTest(TestCase):
@@ -19,3 +20,7 @@ class LogInTest(TestCase):
     def test_user(self):
         user = User.objects.get(username="demo")
         self.assertEqual(user.username, "demo")
+=======
+
+# Create your tests here.
+>>>>>>> 9148d6fe3d12686f4dc740eff58642854f073d67
